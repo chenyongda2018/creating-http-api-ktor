@@ -1,0 +1,20 @@
+POST http://0.0.0.0:8080/customer
+Content-Type: application/json
+
+{
+  "id": "1",
+  "firstName": "Chen",
+  "lastName": "yongda"
+}
+
+###
+
+GET http://0.0.0.0:8080/customer
+
+###
+
+GET http://0.0.0.0:8080/customer/1
+
+###
+
+DELETE http://0.0.0.0:8080/customer/1
